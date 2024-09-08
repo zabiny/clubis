@@ -1,7 +1,7 @@
 package club.klabis.config.authserver.socialloginsupport;
 
-import club.klabis.domain.appusers.ApplicationUser;
-import club.klabis.domain.appusers.ApplicationUsersRepository;
+import club.klabis.appusers.domain.ApplicationUser;
+import club.klabis.appusers.domain.ApplicationUsersRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;

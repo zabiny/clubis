@@ -1,7 +1,7 @@
 package club.klabis.config.authserver;
 
-import club.klabis.domain.appusers.ApplicationUser;
-import club.klabis.domain.appusers.ApplicationUsersRepository;
+import club.klabis.appusers.domain.ApplicationUser;
+import club.klabis.appusers.domain.ApplicationUsersRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.userdetails.User;

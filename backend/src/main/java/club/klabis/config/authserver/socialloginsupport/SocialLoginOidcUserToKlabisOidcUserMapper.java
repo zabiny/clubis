@@ -1,9 +1,8 @@
 package club.klabis.config.authserver.socialloginsupport;
 
 import club.klabis.config.authserver.KlabisOidcUser;
-import club.klabis.domain.appusers.ApplicationUser;
-import club.klabis.domain.appusers.ApplicationUsersRepository;
-import club.klabis.domain.members.Member;
+import club.klabis.appusers.domain.ApplicationUser;
+import club.klabis.appusers.domain.ApplicationUsersRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.core.oidc.OidcIdToken;

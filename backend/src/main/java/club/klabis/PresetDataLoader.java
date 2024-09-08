@@ -1,7 +1,7 @@
 package club.klabis;
 
-import club.klabis.domain.appusers.ApplicationUser;
-import club.klabis.domain.appusers.ApplicationUsersRepository;
+import club.klabis.appusers.domain.ApplicationUser;
+import club.klabis.appusers.domain.ApplicationUsersRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.ApplicationArguments;
